@@ -3,7 +3,7 @@
 eventListeners();
 
 function eventListeners(){
-    document.querySelector("#translate-form").addEventListener("submit",translateWord);
+    document.querySelector("#translate-btn").addEventListener("submit",translateWord);
     document.querySelector("#language").onchange = function(){
         // ui.changeUI();
 
